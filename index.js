@@ -19,7 +19,7 @@ exports.compute = async (input) => {
 
   const values = []
     .concat(extractChannel(channels.Channel0 || channels.redHue))
-    .concat(extractChannel(channels.Channel1 || channels.greenChrome))
+    .concat(extractChannel(channels.Channel1 || channels.greenChroma))
     .concat(extractChannel(channels.Channel2 || channels.blueLuma))
 
   return values
