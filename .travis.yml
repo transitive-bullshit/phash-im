@@ -5,5 +5,6 @@ node_js:
 before_install:
   - sudo apt-get update -q
   - sudo apt-get install gcc g++ build-essential checkinstall -y
-  - wget http://www.imagemagick.org/download/ImageMagick.tar.gz && mkdir im && tar xvzf ImageMagick.tar.gz -C im --strip-components=1 && (cd im && sudo ./configure && make)
+  - wget http://www.imagemagick.org/download/ImageMagick.tar.gz && mkdir im && tar xvzf ImageMagick.tar.gz -C im --strip-components=1 && (cd im && ./configure && make)
   - (cd im && sudo make install && sudo ldconfig /usr/local/lib && sudo ln -sf /usr/local/bin/convert /usr/bin/convert)
+  - mv im ~/
