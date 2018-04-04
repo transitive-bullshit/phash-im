@@ -13,7 +13,7 @@ const fixturesPath = path.join(__dirname, `media`)
 const EPSILON = 0.06
 
 const files = [
-  'airplane.png' /*,
+  'airplane.png',
   'barbara.png',
   'boats.png',
   'lena.png',
@@ -21,7 +21,6 @@ const files = [
   'peppers.png',
   'tiffany.png',
   'zelda.png'
-  */
 ]
 
 files.forEach((file) => {
