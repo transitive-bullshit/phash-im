@@ -73,7 +73,7 @@ Perceptual hash of second image.
 
 ## Related
 
-- [phash-imagemagick](https://github.com/scienceai/phash-imagemagick) - Alternative version of this module which parses imagemagick output instead of using json.
+- [phash-imagemagick](https://github.com/scienceai/phash-imagemagick) - Alternate version of this module which parses imagemagick output instead of using json.
 - [pHash](http://www.phash.org/) - A popular open source perceptual hash library.
 
 
