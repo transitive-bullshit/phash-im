@@ -9,6 +9,4 @@ before_install:
   - mkdir -p ~/im
   - tar xvzf ImageMagick.tar.gz -C ~/im --strip-components=1
   - cd ~/im
-  - ./configure --prefix=/usr
-  - make
-  - sudo make install
+  - ./configure && make && sudo make install
