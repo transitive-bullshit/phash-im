@@ -11,7 +11,7 @@ exports.compute = async (input) => {
   ])
 
   // imagemagick uses some non-standard json...
-  const stdout = cmd.stdout.replace(/␍/gm, '').trim().replace(/\b(nan)\b/g, 'null')
+  const stdout = cmd.stdout.replace(/␍/gm, '').replace(/\n\r/gm, ' ').trim().replace(/\b(nan)\b/g, 'null')
   const result = JSON.parse(stdout)
 
   const { image } = (Array.isArray(result) ? result[0] : result)
