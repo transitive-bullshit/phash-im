@@ -3,5 +3,6 @@ node_js:
   - 9
   - 8
 before_install:
+  - sudo add-apt-repository ppa:isage-dna/imagick -y
   - sudo apt-get update -q
   - sudo apt-get install imagemagick -y

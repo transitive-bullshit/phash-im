@@ -14,7 +14,7 @@ There are many ways to compute [perceptual image hashes](https://www.wikiwand.co
 
 ## Install
 
-- Install [imagemagick](http://imagemagick.org) (`brew install imagemagick` on Mac OS).
+- Install a recent version of [imagemagick](http://imagemagick.org) >= `v6.8.8.3` (`brew install imagemagick` on Mac OS).
 
 ```bash
 npm install --save phash-im
