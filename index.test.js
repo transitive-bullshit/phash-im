@@ -2,8 +2,8 @@
 
 const { test } = require('ava')
 const path = require('path')
-const sharp = require('sharp')
 const rmfr = require('rmfr')
+const sharp = require('sharp')
 const tempy = require('tempy')
 
 const phash = require('.')
