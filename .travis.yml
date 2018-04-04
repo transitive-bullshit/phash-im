@@ -3,6 +3,6 @@ node_js:
   - 9
   - 8
 before_install:
-  - sudo add-apt-repository ppa:achiang/imagemagick-noopenmp -y
+  - sudo add-apt-repository ppa:sw0x2a/imagemagick -y
   - sudo apt-get update -q
   - sudo apt-get install imagemagick -y
