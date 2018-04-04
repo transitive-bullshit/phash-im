@@ -1,0 +1,32 @@
+{
+  "name": "phash-im",
+  "version": "0.0.0",
+  "description": "Perceptual image hashing provided by imagemagick.",
+  "main": "index.js",
+  "repository": "transitive-bullshit/phash-im",
+  "author": "Travis Fischer <travis@automagical.ai>",
+  "license": "MIT",
+  "scripts": {
+    "test": "ava -v && standard"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "keywords": [
+    "phash",
+    "image",
+    "perceptual",
+    "hash",
+    "imagemagick"
+  ],
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "rmfr": "^2.0.0",
+    "sharp": "^0.20.1",
+    "standard": "^11.0.0",
+    "tempy": "^0.2.1"
+  },
+  "dependencies": {
+    "execa": "^0.10.0"
+  }
+}
