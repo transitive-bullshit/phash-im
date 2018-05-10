@@ -32,7 +32,7 @@ exports.compare = async (hash1, hash2) => {
   const ssd = hash1.reduce((acc, value1, index) => {
     const value2 = hash2[index]
     const diff = (value1 - value2)
-    return diff * diff
+    return acc + diff * diff
   }, 0)
 
   return Math.sqrt(ssd)

@@ -10,7 +10,7 @@ const phash = require('.')
 
 const fixturesPath = path.join(__dirname, `media`)
 
-const EPSILON = 0.06
+const EPSILON = 4
 
 const files = [
   'airplane.png',
