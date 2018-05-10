@@ -1,6 +1,6 @@
 {
   "name": "phash-im",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Perceptual image hashing provided by imagemagick.",
   "main": "index.js",
   "repository": "transitive-bullshit/phash-im",
