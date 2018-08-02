@@ -2,7 +2,7 @@
 
 > Perceptual image hashing via [imagemagick](http://www.fmwconcepts.com/misc_tests/perceptual_hash_test_results_510/index.html).
 
-[![NPM](https://img.shields.io/npm/v/phash-im.svg)](https://www.npmjs.com/package/phash-im) [![Build Status](https://travis-ci.org/transitive-bullshit/phash-im.svg?branch=master)](https://travis-ci.org/transitive-bullshit/phash-im) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/phash-im.svg)](https://www.npmjs.com/package/phash-im) [![Build Status](https://travis-ci.com/transitive-bullshit/phash-im.svg?branch=master)](https://travis-ci.com/transitive-bullshit/phash-im) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 There are many ways to compute [perceptual image hashes](https://www.wikiwand.com/en/Perceptual_hashing), with the open source [pHash](http://www.phash.org/) library being one of the most popular. After researching a few dozen different approaches, we've settled on imagemagick's implementation, for the following reasons:
 
